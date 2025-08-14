@@ -219,4 +219,4 @@ L{d}L{d}LL{d}PY{cyc:N-C}
 ## 📬 Contact
 
 For issues or questions, please open an issue or contact the maintainer.
-© 2025 HELM-MAP-SMILES Converter Team
+© 2025 GPS Raghava Team, or email to `raghava@iiitd.ac.in`
