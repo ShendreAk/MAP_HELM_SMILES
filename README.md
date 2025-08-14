@@ -200,7 +200,7 @@ PEPTIDE1{[Abu].[Sar].[meL].V.[meL].A.[dA].[meL].[meL].[meV].[Me_Bmt(E)]}$PEPTIDE
 **MAP Input:**
 
 ```
-L{d}L{d}LL{d}PY{cyc:1-6}
+L{d}L{d}LL{d}PY{cyc:N-C}
 ```
 
 ---
