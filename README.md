@@ -66,9 +66,9 @@ python converter_cli.py <mode> --input <sequence_or_filepath> [--output <output_
 ```bash
 python converter_cli.py helm_to_map --input "PEPTIDE1{[Abu].[Sar].[meL].V.[meL].A.[dA].[meL].[meL].[meV].[Me_Bmt(E)]}$PEPTIDE1,PEPTIDE1,1:R1-11:R2$$$"
 
-python converter_cli.py map_to_helm --input "LL{d}L{d}L{d}PY{cyc:1-6}" --id 1
+python converter_cli.py map_to_helm --input "LL{d}L{d}L{d}PY{cyc:N-C}" --id 1
 
-python converter_cli.py map_to_smiles --input "LL{d}L{d}L{d}PY{cyc:1-6}"
+python converter_cli.py map_to_smiles --input "LL{d}L{d}L{d}PY{cyc:N-C}"
 ```
 
 ---

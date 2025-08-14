@@ -28,6 +28,7 @@ def main():
                 raise ValueError("Output file path required for file input.")
             with open(args.output, "w") as f:
                 f.write("\n".join(results))
+            print(f"Conversion complete. Output saved to {args.output}")
         else:
             print(helm_to_map(args.input))
 
@@ -59,6 +60,7 @@ def main():
               print(result)
 
 
+
     # Handle MAP to SMILES
     elif args.mode == "map_to_smiles":
         if is_file:
@@ -71,6 +73,7 @@ def main():
                 raise ValueError("Output file path required for file input.")
             with open(args.output, "w") as f:
                 f.write("\n".join(results))
+            print(f"Conversion complete. Output saved to {args.output}")
         else:
             print(get_smi_from_map(args.input))
 

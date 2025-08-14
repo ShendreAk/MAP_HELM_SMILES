@@ -401,11 +401,11 @@ def monomer_list_from_linear_seq(linear_seq):
 
 def get_smi_from_map(map):
     linear_seq, linker = extract_data(map)
-    print(linear_seq)
+    # print(linear_seq)
     # print(linker)
     monomer_list = monomer_list_from_linear_seq(linear_seq)
     if linker:
-        print(linker)
+        # print(linker)
         linker_list = linker.split('-')
         cyclic_linker = ''
         if linker_list[0][-1] == '1' :
@@ -422,7 +422,7 @@ def get_smi_from_map(map):
         else:
             cyclic_linker += f'{int(end_conn)}:R3'
         try:
-            print(cyclic_linker)
+            # print(cyclic_linker)
             smi = cyclize_linpep_from_map(monomer_list, cyclic_linker)
             return smi
         except Exception as e:
