@@ -90,15 +90,15 @@ python converter_cli.py helm_to_map --input input_helm.txt --output output_map.t
 python converter_cli.py --mode map_to_helm --input input_map_ids.txt --output output_helm.txt
 
 📌 Make sure your input file follows this format:
-L{d}L{d}LL{d}PY{cyc:1-6},1
-LLLL{d}PY{cyc:1-6},2
+L{d}L{d}LL{d}PY{cyc:N-C},1
+LLLL{d}PY{cyc:N-C},2
 
 # MAP to SMILES
 python converter_cli.py map_to_smiles --input input_map.txt --output output_smiles.txt
 
 📌 Make sure your input file follows this format:
-L{d}L{d}LL{d}PY{cyc:1-6}
-L{d}L{d}LL{d}PY{cyc:1-6}
+L{d}L{d}LL{d}PY{cyc:N-C}
+L{d}L{d}LL{d}PY{cyc:N-C}
 ```
 
 ---
